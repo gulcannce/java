@@ -17,5 +17,7 @@ public class C08_starsWith_endsWith {
         System.out.println(str.endsWith("")); //true
 
         System.out.println(str.startsWith("java")); //false
+
+        //
     }
 }
