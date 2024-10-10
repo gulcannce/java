@@ -5,16 +5,16 @@ public class C06_substring {
 
         String str ="Java en güzel programlama dilir";
 
-        System.out.println(str.substring(beginIndex: 5)); //en güzel programlama dili
-        System.out.println(str.substring(beginIndex: 0)); // java en güzel programlama dili
-        System.out.println(str.substring(beginIndex: 1)); //ava en güzel programlama dili
+        System.out.println(str.substring(5)); //en güzel programlama dili
+        System.out.println(str.substring(0)); // java en güzel programlama dili
+        System.out.println(str.substring(1)); //ava en güzel programlama dili
 
         //son 4 karakteri yazdırın
 
-        System.out.println(str.substring(beginIndex: str.length() -4)); //java dili
+        System.out.println(str.substring(str.length() -4)); //java dili
 
         //metinden sadece Java'yı yazdırın
-        System.out.println(str.substrin(0,4));
+        System.out.println(str.substring(4));
 
         //0.index'den başla 4 karakter yazdır
         //veya 0. index(dahil) ile 4. index (haric )arası

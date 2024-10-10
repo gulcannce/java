@@ -23,7 +23,7 @@ public class C03_equalsIgnoreCase {
 
         if (harf.equals("a") || harf.equals("A")) {
             System.out.println("Aile");
-        } else if (harf.equalsIgnoreCase(anotherString:"i")){
+        } else if (harf.equalsIgnoreCase("i")){
             System.out.println("Is");
 
         }else{

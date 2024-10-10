@@ -6,7 +6,7 @@ public class C02_equals {
         String str1 = "Java";
         String str2 = "java";
         String str3 = "Java";
-        String str4 = new String(oroginal: "Java");
+        String str4 = new String("java");
         String str5 = "Ja" + "va";
         String str6 = "Ja";
         String str7 = "va";

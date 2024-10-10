@@ -1,8 +1,8 @@
-package day15_multiDimensionalArrays;
+package day15_multiDimensionalArrays_arraysLists;
 
 import java.util.Arrays;
 
-public class C01_MDA_TümElementleriYazdırma {
+public class C01_MDA_TumElementleriYazdırma {
 
     public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class C01_MDA_TümElementleriYazdırma {
 
         System.out.println(Arrays.toString(arr1)); // [3,4,6,8]
 
-        //arr!in tum elementlerini yazdırın
+        //arr1'in tum elementlerini yazdırın
 
         for (int i = 0; i < arr1.length; i++) {
 
@@ -32,7 +32,8 @@ public class C01_MDA_TümElementleriYazdırma {
 
             for (int j = 0; j < arr2.length ; j++) {
 
-                System.out.print(arr2[i][j]+ " ");
+                System.out.print(arr2[i][j] + " ");
+
 
             }
 

@@ -1,6 +1,6 @@
 package day14_arrays;
 
-public class C07_MultiDimensionalArray {
+public class C07_MultiDimensionalArrays {
     public static void main(String[] args) {
 
 
@@ -20,10 +20,10 @@ public class C07_MultiDimensionalArray {
 
         for (int i = 0; i < sayılar.length; i++) { //outer loop outer array'ı kontrol eder
 
-            for (int j = 0; j < sayılar.length ; j++) { // inner loop da inner array'İ kontrol edecek
+            for (int j = 0; j < sayılar[i].length ; j++) { // inner loop da inner array'İ kontrol edecek
 
                 System.out.print(sayılar[i][j] + "");
-
+            }
             }//3 5 6 2 7 1 5 8 1
 
         }
@@ -33,4 +33,4 @@ public class C07_MultiDimensionalArray {
 
 
 
-}
+
