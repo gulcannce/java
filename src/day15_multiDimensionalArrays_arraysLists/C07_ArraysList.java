@@ -24,5 +24,27 @@ public class C07_ArraysList {
 
         System.out.println("liste boş mu :" + sayılar.isEmpty());
 
+        System.out.println(sayılar.contains(5)); //true
+        System.out.println(sayılar.contains(3));  //false
+
+
+        sayılar.add(3);
+        sayılar.add(2);
+        sayılar.add(8);
+        System.out.println(sayılar); //[3, 8, 5, 9]
+
+        List<Integer> rakamlar =new ArrayList<>();
+        rakamlar.add(3);
+        rakamlar.add(8);
+        rakamlar.add(5);
+
+        System.out.println(sayılar.containsAll(rakamlar));
+
+        rakamlar.add(9);
+        System.out.println(rakamlar); //[3, 8, 5, 9]
+
+        System.out.println(sayılar.containsAll(rakamlar)); //false
+
+
     }
 }
