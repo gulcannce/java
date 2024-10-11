@@ -26,15 +26,16 @@ public class C10_set {
          //set()'u bir elementi UPDATE (yeni deger atamak) için kullanılır
 
         isimler.set(3,"Gulnur");
-        System.out.println(isimler); //[Deniz, omer, Esra, Gulnur, Hamza, Basak]
+        System.out.println(isimler); //[Deniz, omer, Esra, Gulnur, Hamza, Başak]
 
-        //Method'ların yaptıgı iş ile bixe döndürdüğü sonuc FARKLI OLABİLİR
+        //Method'ların yaptıgı iş ile bixe döndürdüğü sonuc FARKLI OLABILIR
         System.out.println(isimler.set(2, "Yusuf")); //Esra
 
         System.out.println(isimler); //[Deniz, omer, Yusuf, Gulnur, Hamza,
 
-        isimler.set(0,"Ayça");
+        isimler.set(0,"Ayca");
 
         System.out.println(isimler); //[Ayça, omer, Yusuf, Gulnur, Hamza, Basak]
+
     }
 }
