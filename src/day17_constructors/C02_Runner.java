@@ -7,7 +7,11 @@ import java.util.Scanner;
 public class C02_Runner {
 
     public static void main(String[] args) {
-
+      /*
+            Constructor bir class'dan obje olusturmak istediğimizde
+            o objeye olusturuldugu class'daki variable ve methodlarla ilgili
+            ilk atamayı (initialize) yapan yapıdır
+         */
         C01 obj = new C01();
         System.out.println(obj.sayı); // 6
 
@@ -25,10 +29,7 @@ public class C02_Runner {
         C01          obj2             =               new                C01()                ;
         //class      objeadı     atama işareti      keyword            Constructor
 
-        /*
-            Constructor bir class'dan obje olusturmak istediğimizde
-            o objeye olusturuldugu class'daki variable ve methodlarla ilgili
-            ilk atamayı (initialize) yapan yapıdır
-         */
+
+
     }
 }

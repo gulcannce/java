@@ -24,15 +24,15 @@ public class C07_Car {
                 fiyat = fyt;
         }
 
-        @Override
         public String toString() {
-                return "C07_Car{" +
-                        "fiyat=" + fiyat +
+                return "Ozellikler" +
                         ", marka='" + marka + '\'' +
                         ", model='" + model + '\'' +
                         ", renk='" + renk + '\'' +
                         ", yıl=" + yıl +
-                        '}';
+                        "fiyat=" + fiyat ;
+
+
         }
 }
 
