@@ -23,5 +23,15 @@ public class C02_StrinPool {
         System.out.println(str1 ==str4); // false
         System.out.println(str1 == str5); // true
         System.out.println(str1 == str8); //false
+
+        /*
+          basit şekılde olusturulan  string objeler için
+          Java öncelikle Stringb Pool'u kontrol eder
+          eger Pool'da ayne degere sahip baska bir String varsa
+          yeni obje ile eski objenin referansını ve degerini eslsştırır
+
+          == kullanımında havuzda olan ve degeri aynı olanlar true verir
+          havuzda olmayanların true verme ihtimali yoktur
+         */
     }
 }
